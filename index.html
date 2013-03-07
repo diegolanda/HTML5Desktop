@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=1024" />
+	
+	<title>HTML5 Desktop</title>
+
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:regular,bold&amp;v1" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/dock/dock.css" />
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<!--[if lt IE 8]>
+	<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+	<![endif]-->
+</head>
+<body class="impress-not-supported">
+		<div id="impress">
+			<div id="bored" class="step" data-x="0" data-y="0" data-z="0" data-rotate-x="90" data-rotate-y="0" data-rotate-z="0">
+				<div class="content">
+					<q>Aren't you just <b>bored</b> with all those slides-based presentations?</q>
+				</div>
+			</div>
+			
+			<div class="step" data-x="512" data-y="512" data-z="0" data-rotate-x="90" data-rotate-y="90" data-rotate-z="0">
+				<div class="content">
+					<q>Don't you think that presentations given <strong>in modern browsers</strong> shouldn't <strong>copy the limits</strong> of 'classic' slide decks?</q>
+				</div>
+			</div>
+			
+			<div class="step" data-x="0" data-y="1000" data-z="0" data-rotate-x="90" data-rotate-y="180" data-rotate-z="0">
+				<div class="content">
+					<q>Would you like to <strong>impress your audience</strong> with <strong>stunning visualization</strong> of your talk?</q>
+				</div>
+			</div>
+			
+			<div class="step" data-x="-512" data-y="512" data-z="0" data-rotate-x="90" data-rotate-y="270" data-rotate-z="0">
+				<div class="content">
+					<q>Would you like to <strong>impress your audience</strong> with <strong>stunning visualization</strong> of your talk?</q>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Begin: CSS Dock Code -->
+		<div class="dock">
+			<ul>
+				<li id="mail">
+						<a href="#mail">
+						<em><span>Mail</span></em>
+						<img src="images/icon-mail.png" alt="Mail" />
+					</a>
+				</li>
+				<li id="ical">
+					<a href="#ical">
+						<em><span>iCal</span></em>
+						<img src="images/icon-ical.png" alt="iCal" />
+					</a>
+				</li>
+				<li id="addressbook">
+					<a href="#addressbook">
+						<em><span>Address Book</span></em>
+						<img src="images/icon-addressbook.png" alt="Address Book" />
+					</a>
+				</li>
+				<li id="iphoto">
+					<a href="#iphoto">
+						<em><span>iPhoto</span></em>
+						<img src="images/icon-iphoto.png" alt="iPhoto" />
+					</a>
+				</li>
+				<li id="idisk">
+					<a href="#idisk">
+						<em><span>iDisk</span></em>
+						<img src="images/icon-idisk.png" alt="iDisk" />
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!-- End: CSS Dock Code -->
+	<script src="js/impress.js"></script>
+	<script>impress().init();</script>
+</body>
+</html>
